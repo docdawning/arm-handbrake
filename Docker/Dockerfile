@@ -11,5 +11,5 @@ RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 COPY rip_handbrake.sh /home/arm/scripts/rip_handbrake.sh
-RUN chmod +x /home/arm/scripts/rip_handbrake.sh && chown -R arm:arm /home/arm/scripts
+RUN chmod +x /home/arm/scripts/rip_handbrake.sh
 
